@@ -1,0 +1,94 @@
+div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+#rect {
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rainbow {
+    0% {
+      background-color: blue;
+      top: 0px;
+      left: 0px;
+
+    }
+    50% {
+      background-color: rgb(93, 38, 165);
+      top: 50px;
+      left: 25px;
+
+    }
+    100% {
+      background-color: rgb(233, 12, 12);
+      top: 0px;
+      left: -25px;
+
+    }
+  }
+
+
+
+#balll {
+    width: 70px;
+    height: 70px;
+    margin: 50px auto;
+    position: fixed;
+    left: 20%;
+    border-radius:50%;
+    background: linear-gradient(
+      35deg,
+      #4ad4d4,
+      #f7a8a8
+    );
+    animation-name: fade;
+    animation-duration: 3s;
+    -o-animation-interation-count:infinite ;
+  }
+
+  @keyframes fade {
+    50% {
+      left: 60%;
+      opacity: 0.1;
+
+    }
+}
+
+#ball {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce{
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 249px;
+      width: 130px;
+      height: 70px;
+    }
+    100% {
+      top: 0px;
+    }
+}
+
+
