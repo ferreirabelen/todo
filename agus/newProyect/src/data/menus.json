@@ -1,0 +1,68 @@
+
+[
+    {
+        "uuid": "44b8d457-573b-4456-a3d6-53a4389b54ef",
+        "name": "Papas con cheddar",
+        "description": "Papafritas con sal y cheddar",
+        "price": 12.99,
+        "discount": 4.99,
+        "img" : "../Img/papas.jpg",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elespanol.com%2Fcocinillas%2Frecetas%2Fsaludables%2F20150310%2Fpatatas-fritas-crujientes-sin-aceite-horno%2F1000068043212_30.html&psig=AOvVaw1OB3urFa8xAmr2EHpi5Ki_&ust=1694039629085000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDE4_LDlIEDFQAAAAAdAAAAABAE"
+    },
+    {
+        "uuid": "e6880981-f1cc-4bc4-b31e-7fe36d248cac",
+        "name": "Papas con cheddar",
+        "description": "Papafritas con sal y cheddar",
+        "price": 12.99,
+        "discount": 4.99,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elespanol.com%2Fcocinillas%2Frecetas%2Fsaludables%2F20150310%2Fpatatas-fritas-crujientes-sin-aceite-horno%2F1000068043212_30.html&psig=AOvVaw1OB3urFa8xAmr2EHpi5Ki_&ust=1694039629085000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDE4_LDlIEDFQAAAAAdAAAAABAE"
+    },
+    {
+        "uuid": "1fb1d08f-66cc-4231-ab09-1a01a797cf59",
+        "name": "Papas con cheddar",
+        "description": "Papafritas con sal y cheddar",
+        "price": 12.99,
+        "discount": null,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elespanol.com%2Fcocinillas%2Frecetas%2Fsaludables%2F20150310%2Fpatatas-fritas-crujientes-sin-aceite-horno%2F1000068043212_30.html&psig=AOvVaw1OB3urFa8xAmr2EHpi5Ki_&ust=1694039629085000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDE4_LDlIEDFQAAAAAdAAAAABAE"
+    },
+    {
+        "uuid": "830feef8-69b8-426b-ad8d-e213ec536481",
+        "name": "Papas con cheddar",
+        "description": "Papafritas con sal y cheddar",
+        "price": 12.99,
+        "discount": null,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elespanol.com%2Fcocinillas%2Frecetas%2Fsaludables%2F20150310%2Fpatatas-fritas-crujientes-sin-aceite-horno%2F1000068043212_30.html&psig=AOvVaw1OB3urFa8xAmr2EHpi5Ki_&ust=1694039629085000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDE4_LDlIEDFQAAAAAdAAAAABAE"
+    },
+    {
+        "uuid": "a7594349-9326-4cdd-ae36-e9dd90d2da1a",
+        "name": "Papas con cheddar",
+        "description": "Papafritas con sal y cheddar",
+        "price": 12.99,
+        "discount": null,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elespanol.com%2Fcocinillas%2Frecetas%2Fsaludables%2F20150310%2Fpatatas-fritas-crujientes-sin-aceite-horno%2F1000068043212_30.html&psig=AOvVaw1OB3urFa8xAmr2EHpi5Ki_&ust=1694039629085000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDE4_LDlIEDFQAAAAAdAAAAABAE"
+    },
+    {
+        "uuid": "e87713b7-0858-4100-801b-5e1b935b67c9",
+        "name": "Papas con cheddar",
+        "description": "Papafritas con sal y cheddar",
+        "price": 12.99,
+        "discount": null,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elespanol.com%2Fcocinillas%2Frecetas%2Fsaludables%2F20150310%2Fpatatas-fritas-crujientes-sin-aceite-horno%2F1000068043212_30.html&psig=AOvVaw1OB3urFa8xAmr2EHpi5Ki_&ust=1694039629085000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDE4_LDlIEDFQAAAAAdAAAAABAE"
+    },
+    {
+        "uuid": "a87abe1d-f04b-4589-a4af-b69ad040990d",
+        "name": "Papas con cheddar",
+        "description": "Papafritas con sal y cheddar",
+        "price": 12.99,
+        "discount": null,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elespanol.com%2Fcocinillas%2Frecetas%2Fsaludables%2F20150310%2Fpatatas-fritas-crujientes-sin-aceite-horno%2F1000068043212_30.html&psig=AOvVaw1OB3urFa8xAmr2EHpi5Ki_&ust=1694039629085000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDE4_LDlIEDFQAAAAAdAAAAABAE"
+    },
+    {
+        "uuid": "31cb10c2-d731-4934-9097-604945999075",
+        "name": "Papas con cheddar",
+        "description": "Papafritas con sal y cheddar",
+        "price": 12.99,
+        "discount": null,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elespanol.com%2Fcocinillas%2Frecetas%2Fsaludables%2F20150310%2Fpatatas-fritas-crujientes-sin-aceite-horno%2F1000068043212_30.html&psig=AOvVaw1OB3urFa8xAmr2EHpi5Ki_&ust=1694039629085000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDE4_LDlIEDFQAAAAAdAAAAABAE"
+    }
+]

@@ -1,0 +1,342 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+
+.hamburguesa{
+    display:none;
+    width:30px;
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:60px 40px;
+
+}
+button a{
+    color:white;
+}
+header nav ul{
+    font-size: 18px;
+    list-style:none;
+    display:flex;
+    width:600px;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+
+}
+a{
+    text-decoration:none;
+    color:#242E52;
+}
+section{
+    margin:40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+H1{
+    font-family: "Be Vietnam";
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #232C50;
+    padding-bottom:22px;
+
+}
+.ilustracion{
+    padding:1px;
+}
+
+.sectiondiv1{
+    margin-top:100px;
+    position:relative;
+    width:500px;
+    font-size: 25px;
+}
+
+button{
+    background-color:#F3603B;
+    color:white;
+    box-shadow: 0px 4px 7px 0px #00000040;
+    Width:134px;
+    Height:44px;
+    Top:65px;
+    border-radius:50px;
+    Padding:10px;
+    border:none;
+}
+.b1{
+    position:relative;
+    top:25px;
+}
+
+
+/*section2*/
+.articulo1{
+    margin-top:100px;
+    position:relative;
+    width:500px;
+    font-size: 25px;
+    right:30px;
+}
+
+H2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232C50;
+    padding-bottom:22px;
+
+}
+
+.imagenbotones{
+    position:relative;
+    top:15px;
+    right:17px;
+    padding:5px;
+}
+
+p{
+    padding-top:15px;
+    font-size: 18px;
+    line-height:26px;
+    padding-bottom:40px;
+}
+
+/*articulo3*/
+
+.section1{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+.divpersonas{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+h3{
+    text-align:center;
+    font-size:49px;
+    color: #242E53;
+    padding-bottom:40px;
+
+}
+h4{
+    color:#3F4868;
+    font-size: 20px;
+
+}
+
+.personas{
+    position:relative;
+    margin-right:50px;
+    width: 550px;
+    height:240px;
+    background-color:#F3F3F3;
+    margin:100px 0;
+    text-align: center;
+    padding:50px;
+}
+
+.articleimg{
+    position:absolute;
+    left: 240px;
+    bottom: 210px;
+    width:90px;
+}
+.boton3{
+    display:flex;
+    justify-content: center;
+    margin-top:0px;
+}
+
+/*articulo4*/
+
+.seccionaranja{
+    background: #F3613C;
+    margin:0;
+    padding:64px 120px 64px 190px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+}
+
+H6{
+    display:flex;
+    Width:438px;
+    Height:96px;
+    font-weight:700;
+    font-Size:40px;
+    Line-height:48px;
+    color:white;
+}
+
+.buttonaranja{
+    color:#F3613C;
+    background-color: white;
+    height: 44px;
+    width: 134px;
+    left: 976px;
+    top: 26px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-right:180px;
+}
+
+
+
+footer{
+    background-color:#1E1E26;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    Height:247px;
+    line-height:70px;
+}
+
+.footerdivlista{
+    display:flex;
+    justify-content:space-between;
+    padding:50px;
+    width:500px;
+    font-size: 19px;
+    line-height:35px;
+
+}
+footer div ul li a{
+    color:white;
+}
+footer div ul li a:hover{
+    color:#F3613C;
+}
+footer div ul{
+    list-style: none;
+}
+
+footer a i{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    width:35px;
+}
+footer input{
+    width:201px;
+    height:44px;
+    border-radius:30px;
+}
+
+footer button{
+    width:50px;
+    height:50px;
+    border-radius:30px;
+    background-color:#F3603B;
+}
+
+footer p{
+    font-size: 15px;
+    color:#8C8C94;
+    position:relative;
+    left: 40px;
+    margin-top:20px;
+} 
+.footerlog{
+    padding:1px;
+}
+
+
+
+
+@media (max-width: 400px){
+    .hamburguesa{
+        display:inline-block;
+    }
+    header nav ul li{
+        display:none;
+    }
+    header button{
+        display:none;
+    }
+    header{
+    padding: 30px 10px;
+    justify-content: space-between;
+    }
+    .sectiondiv1{
+        margin:0px;
+    }
+
+    section div img.ilustracion{
+        width: 400px;
+        padding-top:50px;
+    }
+    .b1{
+        left:60px;
+    }
+    H2{
+        text-align:center;
+    }
+    .articulo1{
+        text-align:center;
+        right:0px;
+    }
+    .section1{
+        margin:0px;
+        flex-direction:row;
+    }
+    h3{
+        margin-bottom:100px;
+    }
+    .personas{
+        width:350px;
+        margin:20px 0;
+        margin-bottom:80px;
+    }
+    .articleimg{
+        left:145px;
+    }
+    .seccionaranja{
+        margin-top:110px;
+        padding:90px 0;
+    }
+    H6{
+        width: 300px;
+        font-size: 35px;
+        padding-left:25px;
+        text-align: center;
+        line-height: normal;
+    }
+    .buttonaranja{
+        position: relative;
+        left: 100px;
+        margin-right: 10px
+    }
+    footer{
+        flex-direction: column-reverse;
+        height: 550px;
+    }  
+    .footerdivlista{
+        justify-content: space-evenly;
+        padding: 30px;
+        width: 250px;
+    }   
+    footer p{
+        position:absolute;
+        margin-top:375px;
+    }
+    .footerlog{
+        line-height: 20px;
+    }
+}

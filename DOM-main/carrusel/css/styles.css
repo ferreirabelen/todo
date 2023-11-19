@@ -1,0 +1,39 @@
+
+.carrusel{
+    width: 700px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel-items{
+    display: flex;
+    overflow-x: scroll;
+    
+}
+
+.carrusel-item{
+    margin-right: 2000px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    padding-right: 210px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.carrusel-item img:hover{
+    transform: scale(2);
+}
+

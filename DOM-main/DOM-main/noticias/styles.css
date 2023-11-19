@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(42, 194, 221);
+
+}
+section{
+    background-color: rgb(135, 217, 231);
+    padding: 30px;
+}
+
+footer{
+    background-color: gray;
+    height: 70px;
+    padding: 30px;
+}

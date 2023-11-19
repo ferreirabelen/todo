@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(233, 231, 231);
+}
+header{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(248, 230, 66);
+}
+
+header img{
+    width: 90px;
+    height: 70px;
+    padding: 2px;
+}
+
+header div{
+    display: flex;
+}
+
+header p{
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+header form{
+    padding: 7px 50px 0 60px;
+}
+
+header form input{ 
+    width: 620px;
+    height: 40px;
+}
+
+nav{
+    background-color:rgb(248, 230, 66);
+    display:flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(116, 110, 110);
+    padding: 9px;
+    margin-left: 10px;
+}
+
+a:hover{
+    color: black;
+}
+
+nav div{
+    margin-top: 9px;
+    margin-left: 100px 
+}
+
+nav p{
+    margin-top: 9px;
+    margin-right: 10px
+}
+
+.fotoprincipal{
+    margin-left: 140px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    margin-top: 32px;
+
+}
+section a{
+    color: rgb(44, 118, 214);
+    font-size: 16px;
+}
+.pagos{
+    width: 290px;
+    height: 90px;
+    padding-top:6px ;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+
+.pagos img {
+    padding : 10px;
+    width: 65px;
+    height: 65px;
+}
+
+.divbutton{
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    background-color: white;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(44, 118, 214);;
+
+}
+
+h3{
+    text-align: center;
+    padding: 40px;
+    font-size: 26px;
+}
+
+.articulos{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 100px 0;
+} 
+strong{
+    color: black;
+}
+article section img{
+    width: 210px;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+.segundaseccion{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 10px;
+    color: rgb(49, 199, 86);
+    padding: 10px 10px 50px 10px ;
+    box-shadow: 1px 1px 8px rgb(139, 133, 133);
+}
+
+article section strong{
+    font-size: 24px;
+    font-weight: 10;
+}
+
+ .p{                          /*clase para que los precios tengan un margin arriba y no quede pegado a hr  */
+    margin-top: 20px;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding:10px 10px 70px 10px;
+    text-align: center;
+    
+}
+
+.oferta1{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 230px;
+    margin:10px;
+    background-color: rgb(252, 231, 40);
+    font-weight: 900;
+    box-shadow: 10px 5px 10px rgb(139, 133, 133);
+
+}
+
+div h4{
+    color: white;
+    font-size: 32px;
+    padding-top: 27px;
+    padding-left: 20px;
+}
+
+.nivel6{
+    margin-left:370px;
+    color: white;
+    background-color: rgb(151, 41, 255);
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px 7px 0 0 ;
+    background: linear-gradient(
+        35deg,
+        #ca03d1,
+        #ca03d1,
+        #16004b
+    );
+
+}
+
+.beneficios{
+    font-size: 18px;
+    display: flex;
+    background-color: white;
+    width: 1180px;
+    margin-left:370px;
+    border-radius: 7px;
+    height: 180px;
+    padding: 20px;
+}
+
+span{
+    padding: 20px;
+    margin-left:370px;
+    font-size: 20px;
+    display: flex;
+    background-color: white;
+    width: 1180px;
+
+}
+
+
+.ben{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 40px 0 40px
+}
+
+.ben img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.precionivel6{
+    padding-bottom: 15px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.verde{
+    font-size: 13px;
+    background-color: rgb(17, 133, 17);
+    padding: 5px;
+    border-radius: 10%;
+    margin-right: 20px;
+} 
+
+.todasLasSecciones{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+
+}
+.categoriaPopular{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 17px;
+    border:  solid rgb(175, 163, 163) 0.5px; 
+    width: 200px;
+    height: 150px;
+    color: black;
+    background-color: rgb(250, 253, 255);
+}
+
+.categoriaPopular:hover{
+    background-color: rgb(48, 160, 252);
+
+}
+
+H5{
+    margin-left: 210px;
+    margin-top: 40px;
+    font-size: 25px;
+    color: rgb(167, 167, 166);
+}
+
+
+
